@@ -1,0 +1,52 @@
+.parent {
+    margin: 150px;
+}
+
+.profile {
+    /* background-color: blue; */
+    padding: 25px;
+}
+
+.profile .card {
+    padding: 25px;
+}
+
+.profile .card * {
+    margin-bottom: 5px;
+}
+
+.content {
+}
+
+.shareOptions {
+    padding: 0px 20px;
+}
+
+.graph {
+    padding-bottom: 25px;
+}
+
+.menu .item {
+    float: right;
+}
+
+.gauth {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.loader {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.loader .segment {
+    height: 800px;
+}

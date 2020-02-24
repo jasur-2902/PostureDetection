@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "PostureML",
+  "description": "A YHack2019 Project",
+  "version": "0.0.1",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "favicon.ico",
+    "48": "logo192.png",
+    "128": "logo512.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": [
+    "notifications",
+    "videoCapture"
+  ],
+  "background": {
+    "scripts": ["camera.283d5d54.js"],
+    "persistent": false
+  }
+}
