@@ -4,11 +4,11 @@ Enhance your posture with Machine Learning
 
 Inspiration
 ---------------
-Most of our work is done over long periods of time on the computer. We want to improve our posture while we work on the computer.
+In today's digital age, much of our work involves spending long hours in front of a computer, often leading to poor posture. We wanted to create a solution that helps people improve their posture while they work, promoting better health and productivity.
 
 What it does
 ---------------
-With the combination of your webcam and machine learning, we estimate your posture in real-time and provide alerts to improve your posture.
+PostureML uses a combination of your webcam and machine learning to estimate your posture in real-time. It tracks your posture continuously and provides alerts to help you correct it when necessary.
 
 How we built it
 ---------------
@@ -16,12 +16,13 @@ With your permission, we capture live frames through your webcam and send the im
 
 Challenges we ran into
 ---------------
-We first started to implement PostureML as a Chrome Extension that would run in the background of your browser. we had issues running Tensorflow.js
+Initially, we aimed to implement PostureML as a Chrome extension running in the background. However, we encountered difficulties integrating Tensorflow.js within the extension environment, which led us to pivot to a more browser-friendly solution.
 
 Accomplishments that we're proud of
 ---------------
-We're able to estimate when the user's posture is bad and can provide alerts to correct their posture.
+We successfully built a system that can accurately detect poor posture and provide real-time alerts to help users improve it. This achievement required fine-tuning machine learning models and understanding how different postural factors come into play.
 
-What we learned
+
+Example of the Tensorflow Model working in the background
 ---------------
-We learned high advanced mathematical equations, what determines bad vs good posture, how machine learning works under the hood, and read/writing to firebase.
+![alt text](https://raw.githubusercontent.com/jasur-2902/SafPostureDetection/refs/heads/master/media/model_view.png)
