@@ -26,3 +26,7 @@ We successfully built a system that can accurately detect poor posture and provi
 Example of the Tensorflow Model working in the background
 ---------------
 <img src="https://github.com/jasur-2902/PostureDetection/blob/master/media/model_view.png" alt="alt text" width="400">
+
+
+https://github.com/user-attachments/assets/cb87966b-2dda-429b-930e-dc21a5951aec
+
