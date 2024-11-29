@@ -19,7 +19,7 @@
     "react-share": "^3.0.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.1",
-    "showdown": "^1.9.0",
+    "showdown": "^1.9.1",
     "webpack-merge": "^4.2.2"
   },
   "devDependencies": {
